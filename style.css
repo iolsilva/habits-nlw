@@ -17,7 +17,14 @@ header {
   padding: 48px;
 
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  z-index: 10;
+}
+
+#header.scrollHide {
+  opacity: 0;
 }
 
 button {
